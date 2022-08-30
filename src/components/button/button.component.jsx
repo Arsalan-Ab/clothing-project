@@ -6,11 +6,13 @@ const BUTTON_TYPE_CLASS = {
 }
 
 const Button = ({ children, buttonType, ...otherProps }) => {
-    <button className={`button-container ${BUTTON_TYPE_CLASS[buttonType]}`}
-        {...otherProps}
-    >
-        {children}
-    </button>
+    return (
+        <button className={`button-container ${BUTTON_TYPE_CLASS[buttonType]}`}
+            {...otherProps}
+        >
+            {children}
+        </button>
+    )
 }
 
 export default Button
