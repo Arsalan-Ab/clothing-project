@@ -5,5 +5,5 @@ creating cloth shop react app with help of online courses
 ![shop](https://user-images.githubusercontent.com/99872321/195392753-c4b6cc4e-fbb6-4c82-adb1-1b83a7a15223.PNG)
 # Tech Stack
 * View: React
-* State Managment: Usestate Hook
+* State Managment: Context
 * Database: Firebase
